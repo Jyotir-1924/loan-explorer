@@ -1,4 +1,4 @@
-# 🏦 LoanExplorer – Next.js Assignment
+# LoanExplorer – Next.js Assignment
 
 LoanExplorer is a simple web application built with **Next.js** that allows users to explore loan products, view personalized recommendations, and ask AI-powered questions about individual loan products.
 
