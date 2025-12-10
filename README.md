@@ -4,7 +4,7 @@ LoanExplorer is a simple web application built with **Next.js** that allows user
 
 ---
 
-## 🧱 Architecture Overview
+## Architecture Overview
 ```
 User (Browser)
     |
@@ -26,11 +26,11 @@ User (Browser)
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Jyotir-1924/loan-explorer>
 cd loan-explorer
 ```
 
@@ -66,7 +66,7 @@ Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🏷️ Badge Logic
+## Badge Logic
 
 Each loan product card displays up to **3 dynamic badges** based on its features.
 
@@ -91,7 +91,7 @@ Each loan product card displays up to **3 dynamic badges** based on its features
 
 ---
 
-## 🤖 AI Grounding Strategy
+## AI Grounding Strategy
 
 The AI chat is **strictly grounded** to a single loan product to prevent incorrect or hallucinated responses.
 
@@ -110,10 +110,10 @@ The AI chat is **strictly grounded** to a single loan product to prevent incorre
 
 ### Grounding Rules
 
-- ✅ No external knowledge is allowed
-- ✅ One product per conversation
-- ✅ Out-of-scope questions are politely refused
-- ✅ All amounts are formatted in Indian Rupees (₹)
+- No external knowledge is allowed
+- One product per conversation
+- Out-of-scope questions are politely refused
+- All amounts are formatted in Indian Rupees (₹)
 
 ### Example
 
@@ -123,19 +123,19 @@ The AI chat is **strictly grounded** to a single loan product to prevent incorre
 
 ---
 
-## ✅ What This Assignment Demonstrates
+## What This Assignment Demonstrates
 
-- ✔️ Next.js App Router usage
-- ✔️ Secure authentication with middleware
-- ✔️ Clean TypeScript data modeling
-- ✔️ Zod-based API validation
-- ✔️ Database-backed filtering
-- ✔️ Product-specific AI integration
-- ✔️ Accessible UI using shadcn/ui
+- Next.js App Router usage
+- Secure authentication with middleware
+- Clean TypeScript data modeling
+- Zod-based API validation
+- Database-backed filtering
+- Product-specific AI integration
+- Accessible UI using shadcn/ui
 
 ---
 
-## 📌 Notes
+## Notes
 
 - All data is stored in a hosted PostgreSQL database
 - No client-side mock data or localStorage usage
